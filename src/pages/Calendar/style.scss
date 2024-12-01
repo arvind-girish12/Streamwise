@@ -1,0 +1,19 @@
+@import '../../styles/colors.scss';
+@import '../../styles/base.scss';
+
+.calendar {
+  padding: 16px;
+  background-color: $background-light;
+  color: $text;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: $highlight-dark;
+  }
+
+  p {
+    font-size: 16px;
+    color: $text-light;
+  }
+}

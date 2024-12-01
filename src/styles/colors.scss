@@ -1,0 +1,36 @@
+// Primary Color Palette
+$primary: #C6E7FF;
+$secondary: #D4F6FF;
+$background: #FBFBFB;
+$highlight: #FFDDAE;
+
+// Adjacent Colors
+$primary-dark: #A8D4F0;
+$primary-light: #E3F4FF;
+
+$secondary-dark: #B9E7F0;
+$secondary-light: #E8FCFF;
+
+$highlight-dark: #FFC291;
+$highlight-light: #FFE8C4;
+
+$background-dark: #EDEDED;
+$background-light: #FFFFFF;
+
+// Text Colors
+$text: #333333;
+$text-light: #666666;
+
+// Button & CTA Colors
+$btn-primary-bg: $primary;
+$btn-primary-hover: $primary-dark;
+$btn-secondary-bg: $highlight;
+$btn-secondary-hover: $highlight-dark;
+
+// Exported Colors
+:root {
+  --primary: #C6E7FF;
+  --secondary: #D4F6FF;
+  --background: #FBFBFB;
+  --highlight: #FFDDAE;
+}

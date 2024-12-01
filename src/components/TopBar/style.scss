@@ -1,0 +1,38 @@
+@import '../../styles/colors.scss';
+
+.top-bar {
+  width: 98%;
+  height: 60px;
+  background-color: $primary;
+  color: $text;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 16px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10; // Ensure it stays above other components
+
+  .logo {
+    font-size: 18px;
+    font-weight: 600;
+  }
+
+  .menu-icon {
+    cursor: pointer;
+  }
+
+  .profile-menu {
+    display: flex;
+    align-items: center;
+
+    .menu-text {
+      margin-right: 8px;
+    }
+
+    .profile-icon {
+      font-size: 20px;
+    }
+  }
+}

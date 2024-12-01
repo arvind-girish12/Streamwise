@@ -1,0 +1,19 @@
+@import '../../styles/colors.scss';
+@import '../../styles/base.scss';
+
+.dashboard {
+  padding: 16px;
+  background-color: $background;
+  color: $text;
+
+  h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: $primary-dark;
+  }
+
+  p {
+    font-size: 16px;
+    color: $text-light;
+  }
+}
